@@ -1,0 +1,60 @@
+E-R Diagrams:
+=============
+--> Before going to develop original database, first the DBA developer will analyze manual database information and later he converted into "pictorial" representation is known as Entity-Relationship diagrams.
+--> When we design E-R diagram, use the following symbols
+	rectangle:- will represent table name or entity name
+	oval:- column names of a table
+	diamond:- the relationship between tables
+	------->:- connecting to the tables
+
+Introduction to SQL:
+====================
+--> Structured Query Language is used to communicate with any database such as SQL Server, MySQL, Oracle, DB2 etc.
+--> SQL was designed & developed by the German scientist E.F.Codd in 1970 & released in 1972 with ANSI approved.
+--> SQL will pronounce as "SEQUAL" (Structure English Query Language)
+--> SQL will provide common user interface (CUI) facility i.e, this is the only one language which can communicate with any type of database's in realtime.
+--> SQL contains the following sub languages:
+	1. Data Definition Language (DDL)
+	2. Data Manipulation Language (DML)
+	3. Data Query/Retrival Language (DQL/DRL)
+	4. Transaction Control Language (TCL)
+	5. Data Control Language (DCL)
+--> Commands of sub languages are
+	DDL:- create, alter, rename, drop, trancate
+	DML:- insert, update, delete
+	DQL:- select
+	TCL:- commit, rollback, savepoint
+	DCL:- grant, revoke
+
+MySQL:
+======
+--> MySQL is an open-source relational database management system. 
+--> Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language.
+	License: GPL (version 2)
+	Developed by: Oracle Corporation
+	Stable release: 8.0.12 / 27 July 2018; 2 months ago
+	Original author: MySQL AB
+	Initial release date: 23 May 1995
+	Written in: C, C++
+--> MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses.
+--> MySQL works on many operating systems and with many languages including C, C++, JAVA, R, Python etc.
+--> MySQL works very quickly and works well even with large data sets.
+--> MySQL is very friendly to R and Python.
+
+MySQL Workbench:
+================
+MySQL Workbench is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system.
+	License: Community ed.: GPL; 
+		 Standard ed.: Commercial software
+	Developed by: Oracle Corporation
+	Stable release: 8.0.12 / July 27, 2018
+	Operating system: Windows, OS X and Linux
+	Written in: C++, C#, Objective-C
+
+MySQL Installation:
+===================
+Follow the steps to install MySQL in Windows (refer PDF file)
+
+Normalization:
+==============
+What is normalization & normal forms (refer PDF file)
